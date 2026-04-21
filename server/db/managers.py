@@ -578,13 +578,13 @@ class LearnTimeManager(BaseManager[Learntime]):
 
         # Wochentage korrekt mappen
         weekday_map = {
-            1: "Sonntag",
-            2: "Montag",
-            3: "Dienstag",
-            4: "Mittwoch",
-            5: "Donnerstag",
-            6: "Freitag",
-            7: "Samstag",
+            7: "Sonntag",
+            1: "Montag",
+            2: "Dienstag",
+            3: "Mittwoch",
+            4: "Donnerstag",
+            5: "Freitag",
+            6: "Samstag",
         }
 
         weekly_dist = {day: 0 for day in weekday_map.values()}
